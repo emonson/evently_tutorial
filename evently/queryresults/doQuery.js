@@ -1,6 +1,6 @@
 function(e, query_string) {
   var elem = $(this);
-  $.log("entering query function");
+  // $.log("entering query function");
   $(this).trigger("_init");
   $$(this).query_string = query_string;
   $.ajax({

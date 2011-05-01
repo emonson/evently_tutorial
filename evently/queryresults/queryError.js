@@ -1,4 +1,4 @@
 function(e) {
-  $.log("error");
+  $.log("query error");
   $(this).trigger("_init");
 }

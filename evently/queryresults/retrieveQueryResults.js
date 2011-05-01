@@ -1,9 +1,10 @@
 function(e, results) {
-  $.log("retrieving results");
-  $.log(results.rows);
+  var elem = $(this);
+  // $.log("retrieving results");
+  // $.log(results.rows);
   
+  // First, just build up a list of ids which match lucene search
   var ids_list = [];
-  
   for (var i=0; i<results.rows.length; i++) {
     var row = results.rows[i];
     ids_list.push(row.id);
@@ -12,15 +13,22 @@ function(e, results) {
   
   var ids_object = { "keys" : ids_list };
   
-  // Need to fetch actual documents and then have another routine
-  // trigger 'result'...
-  // $.post("http://127.0.0.1:5984/tutorial/_all_docs",'{"keys":["3680e87428fc08360ca7f53829000c3d","3680e87428fc08360ca7f53829000c3d"]}');
-
-  $.post("http://127.0.0.1:5984/tutorial/_all_docs?include_docs=true",
-         JSON.stringify(ids_object),
-         function(data) {
-              $.log(data);
-            });
+//  $.post("../../_all_docs?include_docs=true",
+//         JSON.stringify(ids_object),
+//         function(data) {
+//              $.log(data);
+//            });
   
-  $(this).trigger('result');
+  // Then query view for doc info
+  // (potentially less returned info than querying _all_docs...)
+  $.ajax({
+    type: 'POST',
+    url: "_view/byid",
+    data: JSON.stringify(ids_object),
+    success: function(data) {
+        elem.trigger("collateQueryResults", data);
+       },
+    contentType: "application/json"
+  });
+  
 }
