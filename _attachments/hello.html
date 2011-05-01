@@ -7,8 +7,11 @@
   
   <body>
     <h1>Evently toppings example</h1>
+     <div id="queryform"><p>Some examples</p></div>
+     <div id="ajax_ex"><p>Some examples</p></div>
      <div id="examples"><p>Some examples</p></div>
      <div id="items"><p>Empty items!</p></div>
+     <div id="queryresults"><p>Empty items!</p></div>
     <div id="sidebar"><p>Empty sidebar!</p></div>
   </body>
   
@@ -17,9 +20,13 @@
     $.couch.app(function(app) {
       $("#items").evently("items", app);
       $("#sidebar").evently("choices", app);
+      $("#ajax_ex").evently("ajax_ex", app);
+      $("#queryform").evently("queryform", app);
+      $("#queryresults").evently("queryresults", app);
       $("#examples").evently("examples", app);
       $.evently.connect("#sidebar", "#items", ["addTopping"]);
       $.evently.connect("#sidebar", "#items", ["deleteToppings"]);
+      $.evently.connect("#queryform", "#queryresults", ["doQuery"]);
     });
   </script>
   

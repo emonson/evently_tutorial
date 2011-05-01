@@ -4,23 +4,101 @@
 <dict>
 	<key>ESProjectShowHiddenFilesKey</key>
 	<false/>
+	<key>ESProjectWindowState</key>
+	<dict>
+		<key>ContentSize</key>
+		<string>{1106, 650}</string>
+		<key>ProjectURL</key>
+		<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/tutorial.esproj/</string>
+		<key>StateType</key>
+		<string>ProjectWindow</string>
+		<key>TopLeftPoint</key>
+		<string>{87, 766}</string>
+	</dict>
+	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
+	<false/>
+	<key>com.macrabbit.Espresso.FileManager.FileControllerState</key>
+	<dict>
+		<key>ExpandedURLs</key>
+		<array>
+			<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/_attachments/style</string>
+			<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/ajax_ex/_init</string>
+			<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/ajax_ex/version</string>
+			<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/choices/_init/selectors/a</string>
+			<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/items/_init</string>
+			<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/items/topping</string>
+			<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/profile/profileReady/selectors/form</string>
+		</array>
+	</dict>
+	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
+	<false/>
 	<key>com.macrabbit.Espresso.Workspace.Tabs</key>
 	<dict>
 		<key>Tabs</key>
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/emonson/Programming/CouchApp/tutorial/evently/items/topping/mustache.html</string>
+				<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/queryresults/result/data.js</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/emonson/Programming/CouchApp/tutorial/_attachments/hello.html</string>
+				<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/queryresults/result/mustache.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/queryresults/_init/mustache.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/queryform/_init/selectors/form/submit.js</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/queryresults/_init/data.js</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/queryresults/doQuery.js</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/queryresults/queryError.js</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/evently/queryresults/retrieveQueryResults.js</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/shows/pizza.js</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/emonson/Programming/CouchDB/evently_tutorial/templates/pizza.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
 		</array>
 	</dict>
+	<key>com.macrabbit.Espresso.WorkspaceTabs.DisclosureCollapsed</key>
+	<false/>
 </dict>
 </plist>
